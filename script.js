@@ -7,7 +7,7 @@ accordions.forEach((accordion) => {
     const imgs = event.currentTarget.querySelectorAll('img');
 
     imgs.forEach((img) => {
-      if (img.src.includes('./assets/images/icon-plus.svg')) {
+      if (img.src.includes('/assets/images/icon-plus.svg')) {
         img.src = './assets/images/icon-minus.svg';
       } else {
         img.src = './assets/images/icon-plus.svg';
